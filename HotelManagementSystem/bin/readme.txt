@@ -1,0 +1,29 @@
+Compilation:
+
+- To compile all Java files in the specified directory, run the command for your Java compiler.
+- If necessary, utilize the Makefile.
+
+Execution:
+
+- To run the program, execute the command "java Prog04".
+
+Interface:
+
+- The program will start with a prompt.
+- Each option in the prompt corresponds to a different action.
+- Selecting the "Queries" option will open another prompt where you can choose which query to execute out of five options.
+- If you select the "recordUpdate" option, you will be prompted to choose a record using its primary key, and then update the record's fields by typing column names and new values as comma-separated inputs (e.g., "<col1 name>,<new val1>,<col2 name>,<new val2>..."). If you need to update a field that involves time, enter the date and time in the format "YYYY-MM-DD HH:MM:SS". To update any date fields, enter data in this format "MM/DD/YY".
+- If you choose the "recordInsertion" option, you will be prompted to select a record using its primary key and then insert the record's field values by typing them as comma-separated inputs (e.g., "<val1>,<val2>,<val3>...").
+- To delete a record using its primary key, select the "recordDeletion" option.
+
+Workload Description:
+
+- Ali Sartaz Khan: Record Update/Insertion/Deletion, E-R Diagram, and program interface design.
+- Taoseef Aziz: Table creation/population, E-R Diagram design, normalization analysis, and automation of data from CSV files.
+- Amimul Ehsan Zoha: Table creation/population, E-R Diagram design, and automation of data from CSV files.
+- Khojiakbar Yokubjonov: Query design, normalization analysis, E-R Diagram design, and logical database design.
+
+
+100,11,04/22/23,08:00:00,22:00:00
+30,11,04/21/23,08:00:00,11:00:00
+INSERT INTO taoseefaziz.ATAK_Schedule (scheduleNo,employeeNo,dateScheduled,startTime,endTime) VALUES (30,11,TO_DATE('04/20/23', 'MM/DD/YY'),TIMESTAMP '2023-04-20 2023-04-20 08:00:00',TIMESTAMP '2023-04-20 2023-04-20 11:00:00')

@@ -1,0 +1,6 @@
+employeeNo,managerNo,salary,name,position
+1,1,50000,Jimmi,cashier
+2,2,55000,Tom,bartender
+3,3,60000,Sam,waiter
+4,NULL,90000,Loki,supervisor
+5,NULL,100000,David,supervisor
